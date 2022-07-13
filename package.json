@@ -2,23 +2,27 @@
   "name": "tdd-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "start": "node src/main.js"
   },
+  "dependencies": {
+    "fastify": "^4.2.1",
+    "pino-pretty": "^8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "author": "Aswin Gangadharan",
+  "license": "MIT",
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ashez2000/tdd-api.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "homepage": "https://github.com/ashez2000/tdd-api#readme",
   "bugs": {
     "url": "https://github.com/ashez2000/tdd-api/issues"
-  },
-  "homepage": "https://github.com/ashez2000/tdd-api#readme",
-  "dependencies": {
-    "fastify": "^4.2.1",
-    "pino-pretty": "^8.1.0"
   }
 }
